@@ -71,7 +71,7 @@ button{
 
 /* step 2 */
 .selectPlan{
-    padding: auto;
+    display: none;
 }
 .card{
     padding: 10px; 
@@ -84,6 +84,27 @@ button{
 .selectPlan .d-flex{
     justify-content: space-between;
 }
-/* .card-body{
-    text-align: left;
-} */
+
+/* step 3 */
+.pick-addOns{
+    display: none;
+}
+.pick-addOns .d-flex{
+    justify-content: space-between  ;
+    align-items: center;
+    line-height: 10px;
+}
+.pick-addOns select{
+    width: 20px;
+    height: 20px;
+}
+.pick-addOns .option{
+    padding: 15px 15px 10px 15px !important;
+    border: 1px solid var(--Marine-blue);
+}
+/* step 4 */
+.finishingUp{
+    display: none;
+}
+
+/* step 5 */
