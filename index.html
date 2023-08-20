@@ -49,10 +49,10 @@
         </div>
       </aside>
       <!-- Personal info -->
-      <div class="personalInfo px-5">
+      <div class="personalInfo px-5" id="personalInfo">
         <h3>Personal info</h3>
         <p>Please provide your name, email address, phone number.</p>
-        <form action="">
+        <!-- <form action=""> -->
           <div class="my-3 form-group">
             <label for="" class="form-label">Name</label>
             <input 
@@ -76,11 +76,11 @@
             placeholder="e.g. +1 234 567 890"
             >
           </div>
-          <button class="mt-5 rounded">Next Step</button>
-        </form>
+          <button class="mt-5 rounded" id="step1Btn">Next Step</button>
+        <!-- </form> -->
       </div>
       <!-- select plan -->
-      <div class="selectPlan mx-5">
+      <div class="selectPlan mx-5" id="selectPlan">
         <h3>Select your plan</h3>
         <p>You have the option of monthly or yearly billing.</p>
         <div class="d-flex">
@@ -110,12 +110,12 @@
           <select name="" id="">Monthly</select>
         </div>
         <div class="mt-5 d-flex">
-          <button class="rounded">Go Back</button>
-          <button class="rounded">Next step</button>
+          <button class="rounded" id="step2GoBack">Go Back</button>
+          <button class="rounded" id="step2Btn">Next step</button>
         </div>
       </div>
       <!-- Pick add ons -->
-      <div class="pick-addOns px-5">
+      <div class="pickAddOns px-5" id="pickAddOns">
         <h3>Pick add-ons</h3>
         <p>Add-ons help enhance your gaming experience.</p>
         <div class="">
@@ -151,12 +151,12 @@
           </div>
         </div>
         <div class="mt-5">
-          <button class="rounded">Go Back</button>
-          <button class="rounded">Next Step</button>
+          <button class="rounded" id="step3GoBack">Go Back</button>
+          <button class="rounded" id="step3Btn">Next Step</button>
         </div>
       </div>
       <!--Finishing up -->
-      <div class="px-5 finishingUp">
+      <div class="px-5 finishingUp" id="finishingUp">
         <h3>Finishing up</h3>
         <p>Double-check everything looks OK before confirming.</p>
         <div>
@@ -172,47 +172,23 @@
           </div>
         </div>
         <div>
-          <button class="rounded">Go Back</button>
-          <button class="rounded">Confirm</button>
+          <button class="rounded" id="step4GoBack">Go Back</button>
+          <button class="rounded" id="step4Btn">Confirm</button>
         </div>
       </div>
       <!-- Thank you -->
-      <div class="ThankYou px-5 m-auto">
+      <div class="thankYou px-5 m-auto">
         <img src="./assets/images/icon-thank-you.svg" alt="">
         <h3 class="">Thank you!</h3>
         <!-- <p class="">Thanks for confirming your subscription! We hope you have fun using our platform. If you ever need support,please feel free to email us at support@loremgaming.com.</p> -->
       </div>
     </div>
   </div>
-
-  <!-- Finishing up
-  Double-check everything looks OK before confirming. -->
-
-  <!-- Dynamically add subscription and add-on selections here -->
-
-  <!-- Total (per month/year)
-
-  Go Back
-  Confirm -->
-
-  <!-- Step 4 end -->
-
-  <!-- Step 5 start -->
-
-  <!-- Thank you!
-
-  Thanks for confirming your subscription! We hope you have fun 
-  using our platform. If you ever need support, please feel free 
-  to email us at support@loremgaming.com. -->
-
-  <!-- Step 5 end -->
-  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-
+  </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-
+  <script src="index.js"></script>
 </body>
 </html>
